@@ -3,7 +3,7 @@ import { setContext } from "@apollo/client/link/context";
 import { getValueFor } from "../helpers/secureStore";
 
 const httpLink = createHttpLink({
-  uri: "https://tubeless.avprojects.online/",
+  uri: "https://line-clone.avprojects.online/",
 });
 
 const authLink = setContext(async (_, { headers }) => {

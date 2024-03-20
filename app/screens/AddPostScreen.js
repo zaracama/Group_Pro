@@ -41,12 +41,12 @@ export default function AddPostScreen({ navigation }) {
         >
           <FontAwesome5 name="video-slash" size={40} color="#FF0000" />
           <Text style={{ color: "white", fontSize: 40, fontWeight: "600" }}>
-            Tubeless
+            Line-Clone
           </Text>
         </View>
         <View style={{ marginBottom: 20 }}>
           <Text style={{ fontSize: 20, color: "white" }}>
-            Create a Tubeless Post
+            Create a Line-Clone Post
           </Text>
         </View>
         <View

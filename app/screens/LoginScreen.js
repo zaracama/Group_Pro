@@ -44,12 +44,12 @@ export default function LoginScreen({ navigation }) {
         >
           <FontAwesome5 name="video-slash" size={40} color="#FF0000" />
           <Text style={{ color: "white", fontSize: 40, fontWeight: "600" }}>
-            Tubeless
+            Line-Clone
           </Text>
         </View>
         <View style={{ marginBottom: 20 }}>
           <Text style={{ fontSize: 20, color: "white" }}>
-            Login to Tubeless Account
+            Login to Line-Clone Account
           </Text>
         </View>
         <View

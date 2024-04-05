@@ -8,7 +8,6 @@ import Error from "../components/Error";
 export default function TestScreen() {
   const { loading, error, data } = useQuery(getUser);
 
-  //   console.log(loading, error, data);
 
   if (loading) return <Loading />;
   if (error) return <Error message={error.message} />;

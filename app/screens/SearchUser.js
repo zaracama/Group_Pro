@@ -5,7 +5,6 @@ import UserCard from "../components/UserCard";
 import { useState } from "react";
 import { useQuery } from "@apollo/client";
 import { GET_USER_NAME } from "../helpers/queries";
-import Loading from "../components/Loading";
 import Error from "../components/Error";
 
 export default function SearchUser({ navigation }) {
@@ -14,7 +13,6 @@ export default function SearchUser({ navigation }) {
     variables: { name: name },
   });
 
-  // if (loading) return <Loading />;
   if (error) return <Error message={error.message} />;
 
   return (

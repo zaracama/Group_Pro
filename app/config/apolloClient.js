@@ -3,13 +3,11 @@ import { setContext } from "@apollo/client/link/context";
 import { getValueFor } from "../helpers/secureStore";
 
 const httpLink = createHttpLink({
-  uri: "https://line-clone.avprojects.online/",
+  uri: "https://len.xyz/",
 });
 
 const authLink = setContext(async (_, { headers }) => {
-  // get the authentication token from local storage if it exists
   const token = await getValueFor("access_token");
-  // return the headers to the context so httpLink can read them
   return {
     headers: {
       ...headers,

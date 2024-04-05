@@ -187,7 +187,6 @@ export default function DetailScreen({ route }) {
   }
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#282828" }}>
-      {/* <Text style={{color: "white"}}>Detail Screen {name}</Text> */}
       <Image
         style={{ width: "100%", height: 200 }}
         source={{

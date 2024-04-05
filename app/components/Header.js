@@ -12,7 +12,7 @@ export default function Header() {
     >
       <FontAwesome5 name="video-slash" size={25} color="#FF0000" />
       <Text style={{ color: "white", fontSize: 25, fontWeight: "600" }}>
-        Line-Clone
+        Len
       </Text>
     </View>
   );

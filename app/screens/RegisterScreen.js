@@ -36,12 +36,12 @@ export default function RegisterScreen({ navigation }) {
         >
           <FontAwesome5 name="video-slash" size={40} color="#FF0000" />
           <Text style={{ color: "white", fontSize: 40, fontWeight: "600" }}>
-            Line-Clone
+            Len
           </Text>
         </View>
         <View style={{ marginBottom: 20 }}>
           <Text style={{ fontSize: 20, color: "white" }}>
-            Create a Line-Clone Account
+            Create a Len Account
           </Text>
         </View>
         <View
